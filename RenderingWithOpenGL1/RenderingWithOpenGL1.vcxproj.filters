@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\utils">
+      <UniqueIdentifier>{d93e5321-7661-4c75-83a5-fe5dd5e51a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\utils">
+      <UniqueIdentifier>{2939e7e0-9fdf-4fda-9dcf-b5fdaf6c8fbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\core">
+      <UniqueIdentifier>{b7457c47-7ceb-4497-a65f-58a0369c01e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\core">
+      <UniqueIdentifier>{f26b6ef0-b00f-4a7c-9732-88f7c7425686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\entity">
+      <UniqueIdentifier>{39fe9486-7b43-4bee-9937-82f68cfd0cfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\entity">
+      <UniqueIdentifier>{3582dd78-55f2-435d-82c9-53bf60fbb5b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\render_objects">
+      <UniqueIdentifier>{cbe62d55-fc36-45b4-864e-28a2fc405b0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\render_objects">
+      <UniqueIdentifier>{75e2163e-dcda-4489-8a9d-b8db63327a4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\math">
+      <UniqueIdentifier>{bc27c369-9a53-4782-a6d8-9b0ecc89b80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\math">
+      <UniqueIdentifier>{a18e5459-6ca3-42a0-bf58-45e905ba5179}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderBasic.cpp">
+      <Filter>소스 파일\render_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="UtilFile.cpp">
+      <Filter>소스 파일\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureBasic.cpp">
+      <Filter>소스 파일\render_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArrayBasic.cpp">
+      <Filter>소스 파일\render_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>소스 파일\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>소스 파일\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityMovable.cpp">
+      <Filter>소스 파일\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumDirections.cpp">
+      <Filter>소스 파일\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLMain.cpp">
+      <Filter>소스 파일\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Quarternion.cpp">
+      <Filter>소스 파일\math</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OpenGLIncludes.h">
+      <Filter>헤더 파일\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderBasic.h">
+      <Filter>헤더 파일\render_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilFile.h">
+      <Filter>헤더 파일\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureBasic.h">
+      <Filter>헤더 파일\render_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArrayBasic.h">
+      <Filter>헤더 파일\render_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumDirections.h">
+      <Filter>헤더 파일\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>헤더 파일\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>헤더 파일\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityMovable.h">
+      <Filter>헤더 파일\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumActionResult.h">
+      <Filter>헤더 파일\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>헤더 파일\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>헤더 파일\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Consts.h">
+      <Filter>헤더 파일\math</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLMain.h">
+      <Filter>헤더 파일\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Quarternion.h">
+      <Filter>헤더 파일\math</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
